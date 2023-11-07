@@ -1,5 +1,5 @@
 # From Newest Ubuntu Version, Install updates along with python and Flask
-# In the /app WD, copy api.py to the server 
+# In the /app WD, copy api.py to the server.
 FROM ubuntu:latest
 RUN apt-get update -y
 RUN apt-get upgrade -y
